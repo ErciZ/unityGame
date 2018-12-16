@@ -1,7 +1,9 @@
 ﻿<Properties StartupConfiguration="{C4CC17E4-1E8B-8B61-1663-0672D2683D3A}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Game/DataTables/Scenes.txt">
+  <MonoDevelop.Ide.Workbench ActiveDocument="11 状态">
     <Files>
-      <File FileName="Assets/Game/DataTables/Scenes.txt" Line="7" Column="5" />
+      <File FileName="Assets/Game/Scripts/Procedure/ProcedureBase.cs" Line="1" Column="1" />
+      <File FileName="Assets/Game/DataTables/Scenes.txt" Line="1" Column="1" />
+      <File FileName="11 状态" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
