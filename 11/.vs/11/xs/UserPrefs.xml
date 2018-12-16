@@ -1,0 +1,14 @@
+﻿<Properties StartupConfiguration="{C4CC17E4-1E8B-8B61-1663-0672D2683D3A}|">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Game/DataTables/Scenes.txt">
+    <Files>
+      <File FileName="Assets/Game/DataTables/Scenes.txt" Line="7" Column="5" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.11 PreferredExecutionTarget="Unity.Editor" />
+  <MultiItemStartupConfigurations />
+</Properties>

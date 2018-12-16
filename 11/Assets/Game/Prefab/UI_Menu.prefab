@@ -1,0 +1,100 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1763171996680746}
+  m_IsPrefabParent: 1
+--- !u!1 &1763171996680746
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4187031343924708}
+  - component: {fileID: 114885289832196832}
+  - component: {fileID: 114590698504820810}
+  - component: {fileID: 114286480539789780}
+  m_Layer: 5
+  m_Name: UI_Menu
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4187031343924708
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1763171996680746}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0.0078125, y: 0.0078125, z: 0.0078125}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114286480539789780
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1763171996680746}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bb8312665be194306b9ca89e01afe7d3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &114590698504820810
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1763171996680746}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a723f7fd716aac049aa24e9186f18685, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  scaleMode: 1
+  screenMatchMode: 0
+  designResolutionX: 720
+  designResolutionY: 1280
+  fallbackScreenDPI: 96
+  defaultSpriteDPI: 96
+  constantScaleFactor: 1
+  ignoreOrientation: 0
+--- !u!114 &114885289832196832
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1763171996680746}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 024553ecf96a65649b929ee08c9214fd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  packageName: 11
+  componentName: mainstage
+  fitScreen: 0
+  sortingOrder: 0
+  packagePath: FGUI/11
+  renderMode: 0
+  renderCamera: {fileID: 0}
+  position: {x: 0, y: 0, z: 0}
+  scale: {x: 1, y: 1, z: 1}
+  rotation: {x: 0, y: 0, z: 0}
+  fairyBatching: 0
+  touchDisabled: 0
+  cachedUISize: {x: 540, y: 900}
+  hitTestMode: 0
+  setNativeChildrenOrder: 0
