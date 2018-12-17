@@ -19,19 +19,19 @@ public class Hero : FightEntity {
     /// 行动类状态机：空闲、行走、攻击、受伤
     /// </summary>
     private GameFramework.Fsm.IFsm<Hero> heroActionFsm;
-    public WeaponTrialController weaponTrailController;
+    //public WeaponTrialController weaponTrailController;
     private TextMesh msgText = null;
 
     protected override void OnInit (object userData) {
         base.OnInit (userData);
 
         msgText = this.gameObject.GetComponentInChildren<TextMesh> ();;
-        GameObject weaponTrailObj = GameObject.FindGameObjectWithTag ("WeaponTrail");
-        WeaponTrail weaponTrail = weaponTrailObj.GetOrAddComponent<WeaponTrail> ();
-        weaponTrail.height = 0.6f;
-        weaponTrail.time = 0.3f;
+        //GameObject weaponTrailObj = GameObject.FindGameObjectWithTag ("WeaponTrail");
+        //WeaponTrail weaponTrail = weaponTrailObj.GetOrAddComponent<WeaponTrail> ();
+        //weaponTrail.height = 0.6f;
+        //weaponTrail.time = 0.3f;
 
-        weaponTrailController = new WeaponTrialController (weaponTrail);
+        //weaponTrailController = new WeaponTrialController (weaponTrail);
     }
 
     protected override void OnShow (object userData) {
