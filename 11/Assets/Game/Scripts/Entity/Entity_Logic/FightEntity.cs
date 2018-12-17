@@ -152,14 +152,14 @@ public abstract class FightEntity : Entity {
             OnCure ();
         }
 
-        FlowTextData flowTextData = new FlowTextData (EntityExtension.GenerateSerialId (), this.Id, -changeHP, forceAdd);
-        flowTextData.Position = this.CachedTransform.position + new Vector3 (0.4f, 1, 0);
-        flowTextData.Rotation = Camera.main.transform.rotation;
+        //FlowTextData flowTextData = new FlowTextData (EntityExtension.GenerateSerialId (), this.Id, -changeHP, forceAdd);
+        //flowTextData.Position = this.CachedTransform.position + new Vector3 (0.4f, 1, 0);
+        //flowTextData.Rotation = Camera.main.transform.rotation;
 
-        EntityExtension.ShowFlowText (
-            typeof (FlowText),
-            "FlowTextGroup", flowTextData
-        );
+        //EntityExtension.ShowFlowText (
+        //    typeof (FlowText),
+        //    "FlowTextGroup", flowTextData
+        //);
 
         // 更新血量条
         RefreshHPBar ();

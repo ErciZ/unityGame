@@ -4,30 +4,56 @@
       <File FileName="Assets/Game/Scripts/Entity/Entity_Logic/Entity.cs" Line="5" Column="1" />
       <File FileName="Assets/Game/Scripts/Entity/Entity_Logic/Hero_Logic.cs" Line="1" Column="1" />
       <File FileName="Assets/Game/Scripts/Entity/Entity_Data/EntityData.cs" Line="2" Column="19" />
-      <File FileName="Assets/Game/Scripts/Entity/Entity_Logic/Hero.cs" Line="292" Column="41" />
-      <File FileName="Assets/Game/Scripts/Entity/Entity_Logic/FightEntity.cs" Line="250" Column="70" />
+      <File FileName="Assets/Game/Scripts/Entity/Entity_Logic/Hero.cs" Line="334" Column="2" />
+      <File FileName="Assets/Game/Scripts/Entity/Entity_Logic/FightEntity.cs" Line="158" Column="1" />
       <File FileName="Assets/Game/Scripts/Entity/Entity_Data/FightEntityData.cs" Line="88" Column="29" />
-      <File FileName="Assets/Game/Scripts/Entity/Entity_Data/WeaponData.cs" Line="1" Column="1" />
+      <File FileName="Assets/Game/Scripts/Entity/Entity_Data/WeaponData.cs" Line="9" Column="17" />
       <File FileName="Assets/Game/Scripts/Entity/Entity_Data/AccessoryObjectData.cs" Line="1" Column="1" />
       <File FileName="Assets/Game/Scripts/Entity/Entity_Logic/PowerBar.cs" Line="1" Column="1" />
       <File FileName="Assets/Game/Scripts/Entity/Entity_Data/PowerBarData.cs" Line="1" Column="1" />
       <File FileName="Assets/Game/Scripts/DataTable/DRPowerBar.cs" Line="7" Column="1" />
       <File FileName="Assets/Game/Scripts/Entity/MoveController/IMoveController.cs" Line="1" Column="1" />
-      <File FileName="Assets/Game/Scripts/Entity/Entity_Logic/Weapon.cs" Line="1" Column="1" />
-      <File FileName="Assets/Game/Scripts/Entity/EntityExtension.cs" Line="12" Column="2" />
+      <File FileName="Assets/Game/Scripts/Entity/Entity_Logic/Weapon.cs" Line="130" Column="1" />
+      <File FileName="Assets/Game/Scripts/Entity/EntityExtension.cs" Line="55" Column="1" />
       <File FileName="Assets/Game/Scripts/Entity/Entity_Data/FlowTextData.cs" Line="1" Column="1" />
       <File FileName="Assets/Game/Scripts/Entity/Entity_Logic/FlowText.cs" Line="39" Column="1" />
       <File FileName="Assets/Game/Scripts/Utility/PositionUtility.cs" Line="1" Column="1" />
-      <File FileName="Assets/Game/Scripts/Utility/AIUtility.cs" Line="87" Column="1" />
+      <File FileName="Assets/Game/Scripts/Utility/AIUtility.cs" Line="33" Column="10" />
       <File FileName="Assets/Game/Scripts/Definition/Enum/CampType.cs" Line="1" Column="1" />
       <File FileName="Assets/Game/Scripts/DataTable/IDRAssetsRow.cs" Line="10" Column="6" />
-      <File FileName="Assets/Game/Scripts/Entity/Entity_Data/HeroData.cs" Line="5" Column="1" />
+      <File FileName="Assets/Game/Scripts/Entity/Entity_Data/HeroData.cs" Line="159" Column="13" />
       <File FileName="Assets/Game/Scripts/DataTable/DRHero.cs" Line="7" Column="20" />
       <File FileName="Assets/Game/Scripts/DataTable/DREntity.cs" Line="10" Column="19" />
       <File FileName="Assets/Game/Scripts/Effect/WeaponTrialController.cs" Line="40" Column="42" />
       <File FileName="Assets/Game/Scripts/Entity/Entity_Data/MonsterData.cs" Line="6" Column="1" />
       <File FileName="Assets/Game/Scripts/DataTable/DRMonster.cs" Line="7" Column="15" />
-      <File FileName="Assets/Game/Scripts/DataTable/DataTableExtension.cs" Line="3" Column="31" />
+      <File FileName="Assets/Game/Scripts/DataTable/DataTableExtension.cs" Line="35" Column="1" />
+      <File FileName="Assets/Game/Scripts/Utility/NewClass.cs" Line="7" Column="6" />
+      <File FileName="Assets/Game/Scripts/DataTable/DRWeapon.cs" Line="10" Column="19" />
+      <File FileName="Assets/Game/Scripts/Entity/State/HeroCDIdleState.cs" Line="1" Column="1" />
+      <File FileName="Assets/Game/Scripts/Entity/State/HeroBaseState.cs" Line="7" Column="27" />
+      <File FileName="Assets/Game/Scripts/Entity/State/HeroAtkState.cs" Line="4" Column="34" />
+      <File FileName="Assets/Game/Scripts/Entity/State/HeroBaseActionState.cs" Line="9" Column="23" />
+      <File FileName="Assets/Game/Scripts/Entity/State/HeroAtkCDState.cs" Line="7" Column="2" />
+      <File FileName="Assets/Game/Scripts/Entity/State/HeroIdleState.cs" Line="47" Column="9" />
+      <File FileName="Assets/Game/Scripts/Entity/State/HeroWalkState.cs" Line="13" Column="2" />
+      <File FileName="Assets/Game/Scripts/Entity/State/HeroListenAttackState.cs" Line="7" Column="1" />
+      <File FileName="Assets/Game/Scripts/Entity/State/HeroHurtState.cs" Line="17" Column="18" />
+      <File FileName="Assets/Game/Scripts/Entity/State/HeroDeadState.cs" Line="14" Column="43" />
+      <File FileName="Assets/Game/Scripts/Event/ResurgenceEventArgs.cs" Line="7" Column="40" />
+      <File FileName="Assets/Game/Scripts/Event/Hero/ClickAttackButtonEventArgs.cs" Line="7" Column="47" />
+      <File FileName="Assets/Game/Scripts/Event/Hero/HeroAttackEventArgs.cs" Line="14" Column="16" />
+      <File FileName="Assets/Game/Scripts/Event/Monster/DeadEventArgs.cs" Line="4" Column="14" />
+      <File FileName="Assets/GameFramework/Scripts/Runtime/Fsm/FsmComponent.cs" Line="1" Column="1" />
+      <File FileName="Assets/Game/Scripts/Event/RefreshHeroPropsEventArgs.cs" Line="7" Column="46" />
+      <File FileName="Assets/Game/Scripts/Event/ApplyDamageEventArgs.cs" Line="4" Column="14" />
+      <File FileName="Assets/Game/Scripts/Entity/State/HeroListenDamageState.cs" Line="5" Column="34" />
+      <File FileName="Assets/Game/Scripts/Entity/Entity_Data/BulletData.cs" Line="6" Column="24" />
+      <File FileName="Assets/Game/Scripts/DataTable/DRBullet.cs" Line="3" Column="1" />
+      <File FileName="Assets/Game/Scripts/Entity/Entity_Logic/Bullet.cs" Line="11" Column="18" />
+      <File FileName="Assets/Game/Scripts/Entity/Entity_Logic/BulletEffect.cs" Line="5" Column="14" />
+      <File FileName="Assets/Game/Scripts/Entity/Entity_Data/BulletEffectData.cs" Line="6" Column="15" />
+      <File FileName="Assets/Game/Scripts/DataTable/DRBulletEffect.cs" Line="7" Column="28" />
       <File FileName="11 状态" />
     </Files>
   </MonoDevelop.Ide.Workbench>

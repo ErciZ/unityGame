@@ -43,10 +43,10 @@ public class Hero : FightEntity {
             return;
         }
 
-        weaponTrailController.Reset ();
+        //weaponTrailController.Reset ();
 
         /* 如果不想一直显示武器效果，可以注释掉下面这行，并且把PlayTrailEffect和ClearTrailEffect里的函数注释放开 */
-        weaponTrailController.PlayTrailEffect ();
+        //weaponTrailController.PlayTrailEffect ();
 
         ResetAtkCD ();
 
@@ -148,7 +148,7 @@ public class Hero : FightEntity {
     }
 
     void LateUpdate () {
-        weaponTrailController.Update ();
+        //weaponTrailController.Update ();
     }
 
     protected override void OnHide (object userData) {
@@ -163,7 +163,7 @@ public class Hero : FightEntity {
     }
 
     protected override void OnHurt () {
-        GameEntry.Sound.PlaySound (Constant.Sound.HURT_SOUND_ID);
+        //GameEntry.Sound.PlaySound (Constant.Sound.HURT_SOUND_ID);
 
         /* 累积魔法值 */
         this.heroData.AddMP (1);
@@ -182,18 +182,18 @@ public class Hero : FightEntity {
         heroActionFsm.FireEvent (this, DeadEventArgs.EventId, this.Id);
     }
 
-    protected override IMoveController CreateMoveController () {
-        GameObject leftJoystickObj = GameObject.FindGameObjectWithTag ("LeftJoystick");
+    //protected override IMoveController CreateMoveController () {
+    //    GameObject leftJoystickObj = GameObject.FindGameObjectWithTag ("LeftJoystick");
 
-        if (leftJoystickObj == null) {
-            return null;
-        }
+    //    if (leftJoystickObj == null) {
+    //        return null;
+    //    }
 
-        LeftJoystick leftJoystick = leftJoystickObj.GetOrAddComponent<LeftJoystick> ();
-        leftJoystick.joystickStaysInFixedPosition = true;
+    //    LeftJoystick leftJoystick = leftJoystickObj.GetOrAddComponent<LeftJoystick> ();
+    //    leftJoystick.joystickStaysInFixedPosition = true;
 
-        return new LeftJoystickMoveController (leftJoystick);
-    }
+    //    return new LeftJoystickMoveController (leftJoystick);
+    //}
 
     protected override void OnFireWeapon () {
         SendRefreshPropEvent ();

@@ -535,6 +535,31 @@
     <Compile Include="Assets\Game\Scripts\Entity\Entity_Data\MonsterData.cs" />
     <Compile Include="Assets\Game\Scripts\DataTable\DRMonster.cs" />
     <Compile Include="Assets\Game\Scripts\DataTable\DataTableExtension.cs" />
+    <Compile Include="Assets\Game\Scripts\Utility\NewClass.cs" />
+    <Compile Include="Assets\Game\Scripts\DataTable\DRWeapon.cs" />
+    <Compile Include="Assets\Game\Scripts\Entity\State\HeroCDIdleState.cs" />
+    <Compile Include="Assets\Game\Scripts\Entity\State\HeroBaseState.cs" />
+    <Compile Include="Assets\Game\Scripts\Entity\State\HeroAtkState.cs" />
+    <Compile Include="Assets\Game\Scripts\Entity\State\HeroBaseActionState.cs" />
+    <Compile Include="Assets\Game\Scripts\Entity\State\HeroAtkCDState.cs" />
+    <Compile Include="Assets\Game\Scripts\Entity\State\HeroIdleState.cs" />
+    <Compile Include="Assets\Game\Scripts\Entity\State\HeroWalkState.cs" />
+    <Compile Include="Assets\Game\Scripts\Entity\State\HeroListenAttackState.cs" />
+    <Compile Include="Assets\Game\Scripts\Entity\State\HeroHurtState.cs" />
+    <Compile Include="Assets\Game\Scripts\Entity\State\HeroDeadState.cs" />
+    <Compile Include="Assets\Game\Scripts\Event\ResurgenceEventArgs.cs" />
+    <Compile Include="Assets\Game\Scripts\Event\Hero\ClickAttackButtonEventArgs.cs" />
+    <Compile Include="Assets\Game\Scripts\Event\Hero\HeroAttackEventArgs.cs" />
+    <Compile Include="Assets\Game\Scripts\Event\Monster\DeadEventArgs.cs" />
+    <Compile Include="Assets\Game\Scripts\Event\RefreshHeroPropsEventArgs.cs" />
+    <Compile Include="Assets\Game\Scripts\Event\ApplyDamageEventArgs.cs" />
+    <Compile Include="Assets\Game\Scripts\Entity\State\HeroListenDamageState.cs" />
+    <Compile Include="Assets\Game\Scripts\Entity\Entity_Data\BulletData.cs" />
+    <Compile Include="Assets\Game\Scripts\DataTable\DRBullet.cs" />
+    <Compile Include="Assets\Game\Scripts\Entity\Entity_Logic\Bullet.cs" />
+    <Compile Include="Assets\Game\Scripts\Entity\Entity_Logic\BulletEffect.cs" />
+    <Compile Include="Assets\Game\Scripts\Entity\Entity_Data\BulletEffectData.cs" />
+    <Compile Include="Assets\Game\Scripts\DataTable\DRBulletEffect.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\FairyGUI\ReadMe - 3.2.0.txt" />
