@@ -512,8 +512,24 @@
     <Compile Include="Assets\Game\Scripts\Procedure\ProcedureSplash.cs" />
     <Compile Include="Assets\Game\Scripts\UI\UI_Menu.cs" />
     <Compile Include="Assets\Game\Scripts\UI\UIFormId.cs" />
-    <Compile Include="Assets\Game\Scripts\Entity\Entity.cs" />
-    <Compile Include="Assets\Game\Scripts\Entity\Hero_Logic.cs" />
+    <Compile Include="Assets\Game\Scripts\Entity\Entity_Logic\Entity.cs" />
+    <Compile Include="Assets\Game\Scripts\Entity\Entity_Logic\Hero_Logic.cs" />
+    <Compile Include="Assets\Game\Scripts\Entity\Entity_Data\EntityData.cs" />
+    <Compile Include="Assets\Game\Scripts\Entity\Entity_Logic\Hero.cs" />
+    <Compile Include="Assets\Game\Scripts\Entity\Entity_Logic\FightEntity.cs" />
+    <Compile Include="Assets\Game\Scripts\Entity\Entity_Data\FightEntityData.cs" />
+    <Compile Include="Assets\Game\Scripts\Entity\Entity_Data\WeaponData.cs" />
+    <Compile Include="Assets\Game\Scripts\Entity\Entity_Data\AccessoryObjectData.cs" />
+    <Compile Include="Assets\Game\Scripts\Entity\Entity_Logic\PowerBar.cs" />
+    <Compile Include="Assets\Game\Scripts\Entity\Entity_Data\PowerBarData.cs" />
+    <Compile Include="Assets\Game\Scripts\DataTable\DRPowerBar.cs" />
+    <Compile Include="Assets\Game\Scripts\Entity\MoveController\IMoveController.cs" />
+    <Compile Include="Assets\Game\Scripts\Entity\Entity_Logic\Weapon.cs" />
+    <Compile Include="Assets\Game\Scripts\Entity\EntityExtension.cs" />
+    <Compile Include="Assets\Game\Scripts\Entity\Entity_Data\FlowTextData.cs" />
+    <Compile Include="Assets\Game\Scripts\Entity\Entity_Logic\FlowText.cs" />
+    <Compile Include="Assets\Game\Scripts\Utility\PositionUtility.cs" />
+    <Compile Include="Assets\Game\Scripts\Utility\AIUtility.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\FairyGUI\ReadMe - 3.2.0.txt" />
