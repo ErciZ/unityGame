@@ -129,6 +129,6 @@ public class Weapon : Entity
 
         EntityExtension.ShowBullet(typeof(Bullet), "BulletGroup", bulletData);
 
-        GameEntry.Sound.PlaySound(weaponData.BulletSoundId);
+        //GameEntry.Sound.PlaySound(weaponData.BulletSoundId);
     }
 }

@@ -47,9 +47,9 @@ public static class EntityExtension {
         ShowEntity<DRWeapon> (logicType, entityGroup, data, (assetName) => AssetUtility.GetEntityAsset (assetName));
     }
 
-    public static void ShowParticle (Type logicType, string entityGroup, EntityData data) {
-        ShowEntity<DRParticle> (logicType, entityGroup, data, (assetName) => AssetUtility.GetEntityAsset (assetName));
-    }
+    //public static void ShowParticle (Type logicType, string entityGroup, EntityData data) {
+    //    ShowEntity<DRParticle> (logicType, entityGroup, data, (assetName) => AssetUtility.GetEntityAsset (assetName));
+    //}
 
     public static void ShowMonsterCreater (Type logicType, string entityGroup, EntityData data) {
         ShowEntity<DRMonsterCreater> (logicType, entityGroup, data, (assetName) => AssetUtility.GetEntityAsset (assetName));

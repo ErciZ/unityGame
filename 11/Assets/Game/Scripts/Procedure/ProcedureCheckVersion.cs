@@ -21,7 +21,8 @@
 
 //        /* 暂时没有资源更新的功能，直接初始化资源 */
 //        // RequestVersion (); 
-//        GameEntry.Resource.InitResources ();
+
+//        GameEntry.Resource.InitResources (InitResourcesCompleteCallback initResourcesCompleteCallback);
 //    }
 
 //    protected override void OnLeave (ProcedureOwner procedureOwner, bool isShutdown) {

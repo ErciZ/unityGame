@@ -12,16 +12,19 @@ using System.Threading;
 
 public class ProcedureMenu : ProcedureBase
 {
+    private SurvivalGame survivalGame = null;
     protected override void OnInit(ProcedureOwner procedureOwner)
     {
         base.OnInit(procedureOwner);
 
         this.m_ProcedureOwner = procedureOwner;
+        survivalGame = new SurvivalGame();
     }
     protected override void OnEnter(ProcedureOwner procedureOwner)
     {
         base.OnEnter(procedureOwner);
-		Log.Debug("进入菜单流程，可以在这里加载菜单UI。");
+		Log.Debug("进入主流程，可以在这里加载菜单UI与生成游戏。");
+        survivalGame.Initialize();
 
         // 订阅事件
         GameEntry.Event.Subscribe(OpenUIFormSuccessEventArgs.EventId, OnOpenUIFormSuccess);
@@ -32,7 +35,7 @@ public class ProcedureMenu : ProcedureBase
         // 加载UI
         GameEntry.UI.OpenUIForm("Assets/Game/Prefab/UI_Menu.prefab", "UI_Menu", this);
 
-        GameEntry.Entity.ShowEntity<Hero_Logic>(1, "Assets/Game/Prefab/Hero.prefab", "EntityGroup");
+        GameEntry.Entity.ShowEntity<Hero_Logic>(1, "Assets/Game/Prefab/Hero.prefab", "Heros");
 
 
     }
@@ -54,7 +57,22 @@ public class ProcedureMenu : ProcedureBase
     
     }
 
-    protected override void OnUpdate(ProcedureOwner procedureOwner, float elapseSeconds, float realElapseSeconds) { }
+    protected override void OnUpdate(ProcedureOwner procedureOwner, float elapseSeconds, float realElapseSeconds) {
+
+        GlobalGame.GameTimes += elapseSeconds;
+
+        //if (survivalGame != null)
+        //{
+        //    if (!GlobalGame.IsPause)
+        //    {
+        //        survivalGame.Update(elapseSeconds, realElapseSeconds);
+        //    }
+        //    else
+        //    {
+        //        GameOver(procedureOwner);
+        //    }
+        //}
+    }
 
 
 
