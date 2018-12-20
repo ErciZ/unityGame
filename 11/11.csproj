@@ -530,7 +530,6 @@
     <Compile Include="Assets\Game\Scripts\Entity\Entity_Logic\FightEntity.cs" />
     <Compile Include="Assets\Game\Scripts\Entity\Entity_Logic\FlowText.cs" />
     <Compile Include="Assets\Game\Scripts\Entity\Entity_Logic\Hero.cs" />
-    <Compile Include="Assets\Game\Scripts\Entity\Entity_Logic\Hero_Logic.cs" />
     <Compile Include="Assets\Game\Scripts\Entity\Entity_Logic\Monster.cs" />
     <Compile Include="Assets\Game\Scripts\Entity\Entity_Logic\MonsterCreater.cs" />
     <Compile Include="Assets\Game\Scripts\Entity\Entity_Logic\PowerBar.cs" />
@@ -584,6 +583,8 @@
     <Compile Include="Assets\Game\Scripts\Utility\AIUtility.cs" />
     <Compile Include="Assets\Game\Scripts\Utility\NewClass.cs" />
     <Compile Include="Assets\Game\Scripts\Utility\PositionUtility.cs" />
+    <Compile Include="Assets\Game\Scripts\Localization\LocalizationExtension.cs" />
+    <Compile Include="Assets\Game\Scripts\Localization\XmlLocalizationHelper.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\FairyGUI\ReadMe - 3.2.0.txt" />

@@ -124,7 +124,7 @@ public abstract class FightEntity : Entity {
             changeHP = (int) damageHP;
         }
 
-        bool forceAdd = false;
+        //bool forceAdd = false;
         // 伤害
         if (changeHP > 0) {
             changeHP -= fightEntityData.Def;
@@ -141,7 +141,7 @@ public abstract class FightEntity : Entity {
         }
         // 加血
         else if (changeHP < 0) {
-            forceAdd = true;
+            //forceAdd = true;
 
             if (fightEntityData.HP - changeHP > fightEntityData.MaxHP) {
                 changeHP = fightEntityData.HP - fightEntityData.MaxHP;

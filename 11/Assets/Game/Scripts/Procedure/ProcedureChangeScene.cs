@@ -10,7 +10,7 @@ using ProcedureOwner = GameFramework.Fsm.IFsm<GameFramework.Procedure.IProcedure
 /// </summary>
 public partial class ProcedureChangeScene : ProcedureBase {
     private bool isChangeSceneComplete = false;
-    private int backgroundMusicId = 0;
+    //private int backgroundMusicId = 0;
     private int? uiLoadingID = null;
     private float changeSceneDelayTime = 0; // 延迟切换场景时间记录
 
