@@ -55,6 +55,9 @@ public class ProcedurePreload : ProcedureBase
         }
 
         procedureOwner.SetData<VarInt>(Constant.ProcedureData.NextSceneId, GameEntry.Config.GetInt("Scene.Menu"));
+        //Debug.LogWarning(GameEntry.Config.GetInt("Scene.Game"));
+        //Debug.LogWarning(GameEntry.Config.GetString("Scene.Game"));
+
         ChangeState<ProcedureChangeScene>(procedureOwner);
     }
 

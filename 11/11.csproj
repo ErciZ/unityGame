@@ -520,6 +520,7 @@
     <Compile Include="Assets\Game\Scripts\Entity\Entity_Data\FightEntityData.cs" />
     <Compile Include="Assets\Game\Scripts\Entity\Entity_Data\FlowTextData.cs" />
     <Compile Include="Assets\Game\Scripts\Entity\Entity_Data\HeroData.cs" />
+    <Compile Include="Assets\Game\Scripts\Entity\Entity_Data\MonsterCreaterData.cs" />
     <Compile Include="Assets\Game\Scripts\Entity\Entity_Data\MonsterData.cs" />
     <Compile Include="Assets\Game\Scripts\Entity\Entity_Data\PowerBarData.cs" />
     <Compile Include="Assets\Game\Scripts\Entity\Entity_Data\WeaponData.cs" />
@@ -531,6 +532,7 @@
     <Compile Include="Assets\Game\Scripts\Entity\Entity_Logic\Hero.cs" />
     <Compile Include="Assets\Game\Scripts\Entity\Entity_Logic\Hero_Logic.cs" />
     <Compile Include="Assets\Game\Scripts\Entity\Entity_Logic\Monster.cs" />
+    <Compile Include="Assets\Game\Scripts\Entity\Entity_Logic\MonsterCreater.cs" />
     <Compile Include="Assets\Game\Scripts\Entity\Entity_Logic\PowerBar.cs" />
     <Compile Include="Assets\Game\Scripts\Entity\Entity_Logic\Weapon.cs" />
     <Compile Include="Assets\Game\Scripts\Entity\EntityExtension.cs" />
@@ -566,6 +568,7 @@
     <Compile Include="Assets\Game\Scripts\Event\RefreshGoldEventArgs.cs" />
     <Compile Include="Assets\Game\Scripts\Event\RefreshHeroPropsEventArgs.cs" />
     <Compile Include="Assets\Game\Scripts\Event\ResurgenceEventArgs.cs" />
+    <Compile Include="Assets\Game\Scripts\Game\SurvivalGame.cs" />
     <Compile Include="Assets\Game\Scripts\Global\GlobalGame.cs" />
     <Compile Include="Assets\Game\Scripts\Global\PlayerData.cs" />
     <Compile Include="Assets\Game\Scripts\Procedure\ProcedureBase.cs" />
@@ -581,9 +584,6 @@
     <Compile Include="Assets\Game\Scripts\Utility\AIUtility.cs" />
     <Compile Include="Assets\Game\Scripts\Utility\NewClass.cs" />
     <Compile Include="Assets\Game\Scripts\Utility\PositionUtility.cs" />
-    <Compile Include="Assets\Game\Scripts\Game\SurvivalGame.cs" />
-    <Compile Include="Assets\Game\Scripts\Entity\Entity_Data\MonsterCreaterData.cs" />
-    <Compile Include="Assets\Game\Scripts\Entity\Entity_Logic\MonsterCreater.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\FairyGUI\ReadMe - 3.2.0.txt" />
@@ -592,7 +592,6 @@
     <None Include="Assets\FairyGUI\Resources\Shaders\FairyGUI-Image.shader" />
     <None Include="Assets\FairyGUI\Resources\Shaders\FairyGUI-Text-Brighter.shader" />
     <None Include="Assets\FairyGUI\Resources\Shaders\FairyGUI-Text.shader" />
-    <None Include="Assets\Game\DataTables\Scenes.txt" />
     <None Include="Assets\GameFramework\Libraries\GameFramework.xml" />
     <None Include="Assets\GameFramework\Libraries\link.xml" />
     <None Include="Assets\GameFramework\Scripts\Editor\UnityGameFramework.Editor.asmdef" />

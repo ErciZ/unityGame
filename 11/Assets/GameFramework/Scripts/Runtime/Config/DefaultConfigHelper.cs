@@ -17,7 +17,7 @@ namespace UnityGameFramework.Runtime
     /// </summary>
     public class DefaultConfigHelper : ConfigHelperBase
     {
-        private static readonly string[] ColumnSplit = new string[] { "\t" };
+        private static readonly string[] ColumnSplit = new string[] { "," };
         private const int ColumnCount = 4;
 
         private ResourceComponent m_ResourceComponent = null;
@@ -42,6 +42,7 @@ namespace UnityGameFramework.Runtime
                     }
 
                     string[] splitLine = rowTexts[i].Split(ColumnSplit, StringSplitOptions.None);
+                    //for (int j = 0; j < splitLine.Length; j++) { Debug.Log(j+":"+splitLine[j]); }
                     if (splitLine.Length != ColumnCount)
                     {
                         Log.Warning("Can not parse config '{0}'.", text);
@@ -49,11 +50,12 @@ namespace UnityGameFramework.Runtime
                     }
 
                     string configName = splitLine[1];
-                    string stringValue = splitLine[3];
+                    string stringValue = splitLine[2];
 
                     bool boolValue = default(bool);
                     bool.TryParse(stringValue, out boolValue);
 
+                    //int intValue = splitLine[2];
                     int intValue = default(int);
                     int.TryParse(stringValue, out intValue);
 

@@ -46,15 +46,16 @@ public partial class ProcedureChangeScene : ProcedureBase {
         //uiLoadingID = GameEntry.UI.OpenUIForm(UIFormId.Loading, this);
 
         int sceneId = procedureOwner.GetData<VarInt> (Constant.ProcedureData.NextSceneId).Value;
+        //Debug.Log("id is :"+sceneId);
         IDataTable<DRScene> dtScene = GameEntry.DataTable.GetDataTable<DRScene> ();
-        DRScene drScene = dtScene.GetDataRow (sceneId);
+        DRScene drScene = dtScene.GetDataRow (1);
         if (drScene == null) {
             Log.Warning ("Can not load scene '{0}' from data table.", sceneId.ToString ());
             return;
         }
 
         GameEntry.Scene.LoadScene (AssetUtility.GetSceneAsset (drScene.AssetName), this);
-        backgroundMusicId = drScene.BackgroundMusicId;
+        //backgroundMusicId = drScene.BackgroundMusicId;
     }
 
     protected override void OnLeave (ProcedureOwner procedureOwner, bool isShutdown) {

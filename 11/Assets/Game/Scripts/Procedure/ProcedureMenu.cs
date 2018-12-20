@@ -12,19 +12,19 @@ using System.Threading;
 
 public class ProcedureMenu : ProcedureBase
 {
-    private SurvivalGame survivalGame = null;
+    //private SurvivalGame survivalGame = null;
     protected override void OnInit(ProcedureOwner procedureOwner)
     {
         base.OnInit(procedureOwner);
 
         this.m_ProcedureOwner = procedureOwner;
-        survivalGame = new SurvivalGame();
+        //survivalGame = new SurvivalGame();
     }
     protected override void OnEnter(ProcedureOwner procedureOwner)
     {
         base.OnEnter(procedureOwner);
 		Log.Debug("进入主流程，可以在这里加载菜单UI与生成游戏。");
-        survivalGame.Initialize();
+        //survivalGame.Initialize();
 
         // 订阅事件
         GameEntry.Event.Subscribe(OpenUIFormSuccessEventArgs.EventId, OnOpenUIFormSuccess);
@@ -35,7 +35,7 @@ public class ProcedureMenu : ProcedureBase
         // 加载UI
         GameEntry.UI.OpenUIForm("Assets/Game/Prefab/UI_Menu.prefab", "UI_Menu", this);
 
-        GameEntry.Entity.ShowEntity<Hero_Logic>(1, "Assets/Game/Prefab/Hero.prefab", "Heros");
+        //GameEntry.Entity.ShowEntity<Hero_Logic>(1, "Assets/Game/Prefab/Hero.prefab", "Heros");
 
 
     }

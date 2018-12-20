@@ -1,7 +1,0 @@
-﻿#   场景配置表   
-#   Id  AssetName
-#   int string
-#   场景编号    资源名称
-    1   Launch
-    2   Menu
-    3   Game

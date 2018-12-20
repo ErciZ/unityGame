@@ -1,10 +1,11 @@
 ﻿<Properties StartupConfiguration="{C4CC17E4-1E8B-8B61-1663-0672D2683D3A}|">
   <MonoDevelop.Ide.Workbench ActiveDocument="11 状态">
     <Files>
-      <File FileName="Assets/Game/Scripts/Procedure/ProcedurePreload.cs" Line="4" Column="30" />
-      <File FileName="Assets/Game/Scripts/Procedure/ProcedureChangeScene.cs" Line="79" Column="10" />
-      <File FileName="Assets/Game/Scripts/Procedure/ProcedureMenu.cs" Line="77" Column="5" />
-      <File FileName="Assets/Game/Scripts/Procedure/ProcedureGame.cs" Line="11" Column="6" />
+      <File FileName="Assets/Game/Scripts/Entity/Entity_Logic/MonsterCreater.cs" Line="8" Column="28" />
+      <File FileName="Assets/Game/Scripts/Entity/Entity_Logic/Hero.cs" Line="11" Column="15" />
+      <File FileName="Assets/Game/Scripts/Game/SurvivalGame.cs" Line="7" Column="26" />
+      <File FileName="Assets/Game/Scripts/Procedure/ProcedureMenu.cs" Line="37" Column="9" />
+      <File FileName="Assets/Game/Scripts/Entity/Entity_Logic/Hero_Logic.cs" Line="7" Column="13" />
       <File FileName="11 状态" />
     </Files>
   </MonoDevelop.Ide.Workbench>
