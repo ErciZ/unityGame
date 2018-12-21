@@ -57,7 +57,7 @@ public class Hero : FightEntity {
         InitWeapon ();
 
         /* 刷新描述文本 */
-        RefreshMsgText();
+        //RefreshMsgText();
 
         /* 订阅事件 */
         SubscribeEvent ();

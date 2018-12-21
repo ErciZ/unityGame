@@ -585,6 +585,9 @@
     <Compile Include="Assets\Game\Scripts\Utility\PositionUtility.cs" />
     <Compile Include="Assets\Game\Scripts\Localization\LocalizationExtension.cs" />
     <Compile Include="Assets\Game\Scripts\Localization\XmlLocalizationHelper.cs" />
+    <Compile Include="Assets\Game\Scripts\Entity\Entity_Data\SkillData.cs" />
+    <Compile Include="Assets\Game\Scripts\Entity\Entity_Data\JobData.cs" />
+    <Compile Include="Assets\Game\Scripts\Entity\Entity_Data\FeatureData.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\FairyGUI\ReadMe - 3.2.0.txt" />

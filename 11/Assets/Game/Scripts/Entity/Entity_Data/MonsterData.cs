@@ -15,17 +15,55 @@ public class MonsterData : FightEntityData {
         }
 
         Name = drMonster.Name;
+        LV = drMonster.LV;
+        exp = drMonster.exp;
         HP = drMonster.HP;
+        MP = drMonster.MP;
         MaxHP = HP;
-        MoveSpeed = drMonster.MoveSpeed;
-        RotateSpeed = drMonster.RotateSpeed;
-        Atk = drMonster.Atk;
-        AtkAnimTime = drMonster.AtkAnimTime;
-        AtkRange = drMonster.AtkRange;
-        SeekRange = drMonster.SeekRange;
-        Def = drMonster.Def;
-        AtkSpeed = drMonster.AtkSpeed;
+        MaxMP = MP;
+        S = drMonster.S;
+        A = drMonster.A;
+        D = drMonster.D;
+        I = drMonster.I;
+        M = drMonster.M;
+        C = drMonster.C;
+        L = drMonster.L;
 
+        Atk = drMonster.Atk;
+        Def = drMonster.Def;
+        MagicAtk = drMonster.MagicAtk;
+        MagicDef = drMonster.MagicDef;
+        AtkSpeed = drMonster.AtkSpeed;
+        Crit = drMonster.Crit;
+        CritDamage = drMonster.CritDamage;
+        Hit = drMonster.Hit;
+        Agl = drMonster.Agl;
+        Counter = drMonster.Counter;
+        Double = drMonster.Double;
+        HPRecoverPerSecond = drMonster.HPRecoverPerSecond;
+        MPRecoverPerSecond = drMonster.MPRecoverPerSecond;
+
+        BloodLine = drMonster.BloodLine;
+        Profession = drMonster.Profession;
+        MP_STYLE = drMonster.MP_STYLE;
+
+
+        for (int i = 0; i < drMonster.GetWeaponCount(); i++)
+        {
+            weaponDatas.Add(new WeaponData(EntityExtension.GenerateSerialId(), drMonster.GetWeaponID(i), Id, Camp));
+        }
+        for (int i = 0; i < drMonster.GetSkillCount(); i++)
+        {
+            skillDatas.Add(new SkillData(EntityExtension.GenerateSerialId(), drMonster.GetSkillID(i), Id, Camp));
+        }
+        for (int i = 0; i < drMonster.GetJobCount(); i++)
+        {
+            jobDatas.Add(new JobData(EntityExtension.GenerateSerialId(), drMonster.GetJobID(i), Id, Camp));
+        }
+        for (int i = 0; i < drMonster.GetFeatureCount(); i++)
+        {
+            featureDatas.Add(new FeatureData(EntityExtension.GenerateSerialId(), drMonster.GetFeatureID(i), Id, Camp));
+        }
         this.Prize = prize;
 
         for (int i = 0; i < drMonster.GetWeaponCount (); i++) {

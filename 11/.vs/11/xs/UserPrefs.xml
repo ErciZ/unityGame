@@ -1,23 +1,15 @@
 ﻿<Properties StartupConfiguration="{C4CC17E4-1E8B-8B61-1663-0672D2683D3A}|">
   <MonoDevelop.Ide.Workbench ActiveDocument="11 状态">
     <Files>
-      <File FileName="Assets/Game/Scripts/Entity/Entity_Logic/MonsterCreater.cs" Line="11" Column="5" />
-      <File FileName="Assets/Game/Scripts/Procedure/ProcedureChangeScene.cs" Line="14" Column="37" />
-      <File FileName="Assets/Game/Scripts/Procedure/ProcedureGame.cs" Line="13" Column="1" />
-      <File FileName="Assets/Game/Scripts/Procedure/ProcedureLaunch.cs" Line="16" Column="5" />
-      <File FileName="Assets/Game/Scripts/Procedure/ProcedureSplash.cs" Line="1" Column="1" />
-      <File FileName="Assets/Game/Scripts/Procedure/ProcedurePreload.cs" Line="80" Column="34" />
-      <File FileName="Assets/Game/Scripts/Localization/LocalizationExtension.cs" Line="13" Column="9" />
-      <File FileName="Assets/Game/Scripts/Localization/XmlLocalizationHelper.cs" Line="17" Column="29" />
-      <File FileName="Assets/Game/Scripts/Entity/Entity_Logic/FightEntity.cs" Line="139" Column="27" />
-      <File FileName="Assets/GameFramework/Scripts/Runtime/Resource/EditorResourceComponent.cs" Line="806" Column="1" />
-      <File FileName="Assets/Game/Scripts/Effect/WeaponTrialController.cs" Line="10" Column="31" />
-      <File FileName="Assets/Game/Scripts/Entity/Entity_Logic/Hero.cs" Line="224" Column="26" />
-      <File FileName="Assets/Game/Scripts/Entity/Entity_Data/HeroData.cs" Line="12" Column="3" />
-      <File FileName="Assets/Game/Scripts/DataTable/DRHero.cs" Line="21" Column="3" />
-      <File FileName="Assets/Game/Scripts/DataTable/DREntity.cs" Line="300" Column="5" />
-      <File FileName="Assets/Game/Scripts/DataTable/DRMonster.cs" Line="1" Column="1" />
-      <File FileName="Assets/Game/Scripts/DataTable/DRMonsterCreater.cs" Line="1" Column="1" />
+      <File FileName="Assets/Game/Scripts/DataTable/DREntity.cs" Line="367" Column="6" />
+      <File FileName="Assets/Game/Scripts/DataTable/DRHero.cs" Line="50" Column="9" />
+      <File FileName="Assets/Game/Scripts/DataTable/DRMonster.cs" Line="53" Column="37" />
+      <File FileName="Assets/Game/Scripts/Entity/Entity_Data/HeroData.cs" Line="44" Column="40" />
+      <File FileName="Assets/Game/Scripts/Entity/Entity_Data/MonsterData.cs" Line="7" Column="15" />
+      <File FileName="Assets/Game/Scripts/Entity/Entity_Data/MonsterCreaterData.cs" Line="1" Column="1" />
+      <File FileName="Assets/Game/Scripts/Entity/Entity_Data/JobData.cs" Line="6" Column="14" />
+      <File FileName="Assets/Game/Scripts/Entity/Entity_Logic/Hero.cs" Line="60" Column="8" />
+      <File FileName="Assets/Game/Scripts/Entity/State/HeroAtkState.cs" Line="84" Column="6" />
       <File FileName="11 状态" />
     </Files>
   </MonoDevelop.Ide.Workbench>

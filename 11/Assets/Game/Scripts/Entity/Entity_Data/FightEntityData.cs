@@ -6,7 +6,10 @@ using UnityEngine;
 [Serializable]
 public class FightEntityData : EntityData {
     protected List<WeaponData> weaponDatas = new List<WeaponData> ();
-    
+    protected List<SkillData> skillDatas = new List<SkillData>();
+    protected List<FeatureData> featureDatas = new List<FeatureData>();
+    protected List<JobData> jobDatas = new List<JobData>();
+
     public FightEntityData (int entityId, int typeId, CampType camp) : base (entityId, typeId) {
         this.Camp = camp;
     }
@@ -87,6 +90,33 @@ public class FightEntityData : EntityData {
     /// <returns></returns>
     public List<WeaponData> GetWeaponDatas() {
         return weaponDatas;
+    }
+
+    /// <summary>
+    /// 获取副职业数据列表
+    /// </summary>
+    /// <returns></returns>
+    public List<JobData> GetJobDatas()
+    {
+        return jobDatas;
+    }
+
+    /// <summary>
+    /// 获取专长数据列表
+    /// </summary>
+    /// <returns></returns>
+    public List<FeatureData> GetFeatureDatas()
+    {
+        return featureDatas;
+    }
+
+    /// <summary>
+    /// 获取技能数据列表
+    /// </summary>
+    /// <returns></returns>
+    public List<SkillData> GetSkillDatas()
+    {
+        return skillDatas;
     }
 
     /// <summary>
@@ -215,4 +245,233 @@ public class FightEntityData : EntityData {
         get;
         protected set;
     }
+
+    /// <summary>
+    /// 等级
+    /// </summary>
+    /// <returns></returns>
+    public int LV
+    {
+        get;
+        protected set;
+    }
+
+    /// <summary>
+    /// 经验值
+    /// </summary>
+    /// <returns></returns>
+    public int exp
+    {
+        get;
+        protected set;
+    }
+
+
+
+    /// <summary>
+    /// 力量
+    /// </summary>
+    /// <returns></returns>
+    public int S
+    {
+        get;
+        protected set;
+    }
+
+    /// <summary>
+    /// 敏捷
+    /// </summary>
+    /// <returns></returns>
+    public int A
+    {
+        get;
+        protected set;
+    }
+
+    /// <summary>
+    /// 耐力
+    /// </summary>
+    /// <returns></returns>
+    public int D
+    {
+        get;
+        protected set;
+    }
+
+    /// <summary>
+    /// 智力
+    /// </summary>
+    /// <returns></returns>
+    public int I
+    {
+        get;
+        protected set;
+    }
+
+    /// <summary>
+    /// 神秘
+    /// </summary>
+    /// <returns></returns>
+    public int M
+    {
+        get;
+        protected set;
+    }
+
+    /// <summary>
+    /// 魅力
+    /// </summary>
+    /// <returns></returns>
+    public int C
+    {
+        get;
+        protected set;
+    }
+
+    /// <summary>
+    /// 幸运
+    /// </summary>
+    /// <returns></returns>
+    public int L
+    {
+        get;
+        protected set;
+    }
+
+    /// <summary>
+    /// 魔攻 magicatk
+    /// </summary>
+    /// <returns></returns>
+    public int MagicAtk
+    {
+        get;
+        protected set;
+    }
+
+    /// <summary>
+    /// 魔防
+    /// </summary>
+    /// <returns></returns>
+    public int MagicDef
+    {
+        get;
+        protected set;
+    }
+
+    /// <summary>
+    /// 暴击
+    /// </summary>
+    /// <returns></returns>
+    public int Crit
+    {
+        get;
+        protected set;
+    }
+
+    /// <summary>
+    /// 爆伤
+    /// </summary>
+    /// <returns></returns>
+    public int CritDamage
+    {
+        get;
+        protected set;
+    }
+
+    /// <summary>
+    /// 命中
+    /// </summary>
+    /// <returns></returns>
+    public int Hit
+    {
+        get;
+        protected set;
+    }
+
+    /// <summary>
+    /// 闪避
+    /// </summary>
+    /// <returns></returns>
+    public int Agl
+    {
+        get;
+        protected set;
+    }
+
+    /// <summary>
+    /// 反击
+    /// </summary>
+    /// <returns></returns>
+    public int Counter
+    {
+        get;
+        protected set;
+    }
+
+    /// <summary>
+    /// 连击
+    /// </summary>
+    /// <returns></returns>
+    public int Double
+    {
+        get;
+        protected set;
+    }
+
+    /// <summary>
+    /// 每秒血量回复
+    /// </summary>
+    /// <returns></returns>
+    public int HPRecoverPerSecond
+    {
+        get;
+        protected set;
+    }
+
+    /// <summary>
+    /// 每秒魔量回复
+    /// </summary>
+    /// <returns></returns>
+    public int MPRecoverPerSecond
+    {
+        get;
+        protected set;
+    }
+
+
+
+    /// <summary>
+    /// 血统
+    /// </summary>
+    /// <returns></returns>
+    public string BloodLine
+    {
+        get;
+        protected set;
+    }
+
+
+
+    /// <summary>
+    /// 职业  profession
+    /// </summary>
+    /// <returns></returns>
+    public string Profession
+    {
+        get;
+        protected set;
+    }
+
+    /// <summary>
+    /// 能量体系  MP STYLE
+    /// </summary>
+    /// <returns></returns>
+    public string MP_STYLE
+    {
+        get;
+        protected set;
+    }
+
+
+
 }
