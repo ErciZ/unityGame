@@ -12,7 +12,7 @@ public class DRMonster : DREntity {
         string[] text = DataTableExtension.SplitDataRow (dataRowText);
         int index = 0;
         index++;
-        Id = int.Parse (text[index++]);
+        Id = int.Parse(text[index++]);
         AssetName = text[index++];
         Name = text[index++];
         LV = int.Parse(text[index++]);
@@ -38,8 +38,6 @@ public class DRMonster : DREntity {
         Agl = int.Parse(text[index++]);
         Counter = int.Parse(text[index++]);
         Double = int.Parse(text[index++]);
-        Atk = int.Parse(text[index++]);
-        Def = int.Parse(text[index++]);
         HPRecoverPerSecond = int.Parse(text[index++]);
         MPRecoverPerSecond = int.Parse(text[index++]);
 
