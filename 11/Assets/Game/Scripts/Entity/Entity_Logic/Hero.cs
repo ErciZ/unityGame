@@ -281,7 +281,7 @@ public class Hero : FightEntity {
     /// 根据给定的属性，加强英雄
     /// </summary>
     public void PowerUpByAbsValue (int hp, int def, int atk, float atkSpeed) {
-        this.heroData.PowerUpByAbsValue (hp, def, atk, atkSpeed);
+        //this.heroData.PowerUpByAbsValue (hp, def, atk, atkSpeed);
         //this.RefreshMsgText();
     }
 
@@ -290,7 +290,7 @@ public class Hero : FightEntity {
     /// </summary>
     /// <param name="data"></param>
     private void PowerUpByMonster (MonsterData data) {
-        this.heroData.PowerUpByAbsorbPower (data.HP, data.Def, data.Atk, data.AtkSpeed);
+        //this.heroData.PowerUpByAbsorbPower (data.HP, data.Def, data.Atk, data.AtkSpeed);
         //this.RefreshMsgText();
     }
 
