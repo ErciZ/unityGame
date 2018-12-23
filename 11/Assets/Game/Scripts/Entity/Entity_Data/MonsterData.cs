@@ -117,4 +117,101 @@ public class MonsterData : FightEntityData {
         protected set;
     }
 
+    /// <summary>
+    /// 血量不超过最大值
+    /// </summary>
+    private void RefreshData()
+    {
+        if (HP > MaxHP)
+        {
+            HP = MaxHP;
+        }
+        if (MP > MaxMP)
+        {
+            MP = MaxMP;
+        }
+
+    }
+
+
+
+    /// <summary>
+    /// 升级加强英雄
+    /// </summary>
+    public void PowerUpByLV()
+    {
+        PowerUpByAbsValue(HP: 100, MP: 30, S: 1, A: 1, D: 1, I: 1);
+        UpdateAttribute();
+    }
+
+    /// <summary>
+    /// 根据主属性，提升其他属性
+    /// </summary>
+    public void UpdateAttribute()
+    {
+        int atk = Mathf.FloorToInt((this.S * 20f + this.A * 1f + this.D * 2f +
+                                  this.A * 2f + this.I * 1f + this.M * 1f) / 10f);
+        int def = Mathf.FloorToInt((this.S * 20f + this.A * 1f + this.D * 2f +
+                                  this.A * 2f + this.I * 1f + this.M * 1f) / 10f);
+        int magicatk = Mathf.FloorToInt((this.S * 20f + this.A * 1f + this.D * 2f +
+                                  this.A * 2f + this.I * 1f + this.M * 1f) / 10f);
+        int magicdef = Mathf.FloorToInt((this.S * 20f + this.A * 1f + this.D * 2f +
+                                  this.A * 2f + this.I * 1f + this.M * 1f) / 10f);
+
+        PowerUpByAbsValue(Atk: atk, Def: def, MagicAtk: magicatk, MagicDef: magicdef);
+
+
+
+    }
+
+
+    /// <summary>
+    /// 根据给定的属性值，加强英雄
+    /// </summary>
+    public void PowerUpByAbsValue(int HP = 0, int MP = 0, int S = 0, int A = 0,
+                                      int D = 0, int I = 0, int M = 0, int C = 0,
+                                      int L = 0, int Atk = 0, int Def = 0, int MagicAtk = 0,
+                                      int MagicDef = 0, int Crit = 0, int CritDamage = 0,
+                                      int Hit = 0, int Agl = 0, int Counter = 0,
+                                      int Double = 0, int HPRecoverPerSecond = 0,
+                                      int MPRecoverPerSecond = 0,
+                                       float AtkSpeed = 0)
+    {
+        if (HP != 0)
+        {
+            this.MaxHP += HP;
+            this.HP = this.MaxHP;
+        }
+        if (MP != 0)
+        {
+            this.MaxMP += MP;
+            this.MP = this.MaxMP;
+        }
+
+        this.S += S;
+        this.A += A;
+        this.D += D;
+        this.I += I;
+        this.M += M;
+        this.C += C;
+        this.L += L;
+        this.Atk += Atk;
+        this.Def += Def;
+        this.MagicAtk += MagicAtk;
+        this.MagicDef += MagicDef;
+        this.Crit += Crit;
+        this.CritDamage += CritDamage;
+        this.Hit += Hit;
+        this.Agl += Agl;
+        this.Double += Double;
+        this.Counter += Counter;
+        this.HPRecoverPerSecond += HPRecoverPerSecond;
+        this.MPRecoverPerSecond += MPRecoverPerSecond;
+
+
+        this.AtkSpeed += AtkSpeed;
+
+
+    }
+
 }
