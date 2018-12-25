@@ -135,14 +135,6 @@ public class MonsterData : FightEntityData {
 
 
 
-    /// <summary>
-    /// 升级加强英雄
-    /// </summary>
-    public void PowerUpByLV()
-    {
-        PowerUpByAbsValue(HP: 100, MP: 30, S: 1, A: 1, D: 1, I: 1);
-        UpdateAttribute();
-    }
 
     /// <summary>
     /// 根据主属性，提升其他属性
@@ -166,7 +158,7 @@ public class MonsterData : FightEntityData {
 
 
     /// <summary>
-    /// 根据给定的属性值，加强英雄
+    /// 根据给定的属性值，加强怪物
     /// </summary>
     public void PowerUpByAbsValue(int HP = 0, int MP = 0, int S = 0, int A = 0,
                                       int D = 0, int I = 0, int M = 0, int C = 0,
