@@ -347,6 +347,8 @@
     <Compile Include="Assets\FairyGUI\Scripts\Editor\UIContentScalerEditor.cs" />
     <Compile Include="Assets\FairyGUI\Scripts\Editor\UIPainterEditor.cs" />
     <Compile Include="Assets\FairyGUI\Scripts\Editor\UIPanelEditor.cs" />
+    <Compile Include="Assets\Game\Scripts\DataTable\DRSkill.cs" />
+    <Compile Include="Assets\Game\Scripts\DataTable\DRJob.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\FairyGUI\ReadMe - 3.2.0.txt" />

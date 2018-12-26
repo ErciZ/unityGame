@@ -588,6 +588,8 @@
     <Compile Include="Assets\Game\Scripts\Entity\Entity_Data\SkillData.cs" />
     <Compile Include="Assets\Game\Scripts\Entity\Entity_Data\JobData.cs" />
     <Compile Include="Assets\Game\Scripts\Entity\Entity_Data\FeatureData.cs" />
+    <Compile Include="Assets\Game\Scripts\DataTable\DRSkill.cs" />
+    <Compile Include="Assets\Game\Scripts\DataTable\DRJob.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\FairyGUI\ReadMe - 3.2.0.txt" />

@@ -1,10 +1,15 @@
 ﻿<Properties StartupConfiguration="{C4CC17E4-1E8B-8B61-1663-0672D2683D3A}|">
   <MonoDevelop.Ide.Workbench ActiveDocument="11 状态">
     <Files>
-      <File FileName="Assets/Game/Scripts/Entity/Entity_Data/HeroData.cs" Line="65" Column="5" />
+      <File FileName="Assets/Game/Scripts/Entity/Entity_Data/HeroData.cs" Line="65" Column="1" />
       <File FileName="Assets/Game/Scripts/Entity/Entity_Logic/Hero.cs" Line="12" Column="22" />
       <File FileName="Assets/Game/Scripts/Entity/Entity_Data/JobData.cs" Line="1" Column="1" />
-      <File FileName="Assets/Game/Scripts/Entity/Entity_Data/MonsterData.cs" Line="137" Column="5" />
+      <File FileName="Assets/Game/Scripts/Entity/Entity_Data/MonsterData.cs" Line="137" Column="1" />
+      <File FileName="Assets/Game/Scripts/Entity/State/HeroBaseActionState.cs" Line="1" Column="1" />
+      <File FileName="Assets/Game/Scripts/Entity/Entity_Data/SkillData.cs" Line="1" Column="1" />
+      <File FileName="Assets/Game/Scripts/DataTable/DRSkill.cs" Line="110" Column="2" />
+      <File FileName="Assets/Game/Scripts/DataTable/DRWeapon.cs" Line="110" Column="2" />
+      <File FileName="Assets/Game/Scripts/DataTable/DRJob.cs" Line="8" Column="2" />
       <File FileName="11 状态" />
     </Files>
   </MonoDevelop.Ide.Workbench>

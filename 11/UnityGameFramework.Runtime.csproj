@@ -511,6 +511,8 @@
     <Compile Include="Assets\GameFramework\Scripts\Runtime\WebRequest\WebRequestStartEventArgs.cs" />
     <Compile Include="Assets\GameFramework\Scripts\Runtime\WebRequest\WebRequestSuccessEventArgs.cs" />
     <Compile Include="Assets\GameFramework\Scripts\Runtime\WebRequest\WWWFormInfo.cs" />
+    <Compile Include="Assets\Game\Scripts\DataTable\DRSkill.cs" />
+    <Compile Include="Assets\Game\Scripts\DataTable\DRJob.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\FairyGUI\ReadMe - 3.2.0.txt" />
